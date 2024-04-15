@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom';
-import {Swiper,SwiperSlide} from 'Swiper/react';
+import {Swiper,SwiperSlide} from 'swiper/react';
 import {Navigation} from 'swiper/modules' 
 import 'swiper/css/bundle';
 import  SwiperCore from 'swiper';
