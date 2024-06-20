@@ -31,11 +31,11 @@ app.use("/api/user",userRouter);
 app.use("/api/auth",authRouter);
 app.use("/api/listing",listingRouter);
 
-app.use(express.static(path.join(_dirname,'/client/dist')));
+/*app.use(express.static(path.join(_dirname,'/client/dist')));
 
 app.get('*',(req,res)=>{
     res.sendFile(path.join(_dirname,'client','dist','index.html'));
-});
+});*/
 
 app.use((err,req,res,next)=>{
    const statusCode = err.statusCode || 500;
